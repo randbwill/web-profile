@@ -10,7 +10,7 @@ body {
     height: 250x;
     padding-bottom: 30px;
 }
-#topTitle {
+#topTitle h1 {
     text-align: center;
     font-family: 'DynaPuff';
 }
@@ -47,4 +47,27 @@ body {
   }
   p {
    color:#3B5998 
-  }      
+  }   
+  #sidebar {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 5%!important;
+    height:100%;
+    background-color: rgb(198, 209, 205);
+    margin:5px;
+    border:#007bb5;
+    text-align:center;
+    font-family: 'Aboreto';
+  }
+#subform {
+  text-align:center;
+  height:200;
+}
+#enterData {
+  width: 70%;
+}
+#bar {
+  width:8%;
+  margin: 10px;
+}

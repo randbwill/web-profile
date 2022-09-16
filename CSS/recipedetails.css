@@ -1,0 +1,29 @@
+.container {
+    display:grid;
+    max-width: 900px;
+    min-height: 50vh;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:"left" "ingrediants" "instructions";
+    gap:10px;
+    margin:auto;
+}
+.left {
+    
+    padding:25px;
+    background-color:aqua;
+    font-size: 5vw;
+}
+.ingrediants {
+ 
+ background-color: blue;
+ padding:25px;
+ font-size: 5vw;
+}
+.instructions {
+    
+    background-color: brown;
+    padding:25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 5vw;
+}
